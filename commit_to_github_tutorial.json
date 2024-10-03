@@ -1,11 +1,10 @@
 
 SHEETS
-{"qInfo":{"qId":"bcdrDD","qType":"sheet"},"qMeta":{"title":"test_sheet1","description":"","_resourcetype":"app.object","_objecttype":"sheet","id":"bcdrDD","approved":false,"published":false,"owner":"7eleven\\panupongdur","ownerId":"62e9d8a7093a78faed080d76","createdDate":"2024-10-01T15:58:12.928Z","modifiedDate":"2024-10-03T12:38:21.001Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"bcdrDD","qType":"sheet"},"qMeta":{"title":"test_sheet1","description":"","_resourcetype":"app.object","_objecttype":"sheet","id":"bcdrDD","approved":false,"published":false,"owner":"7eleven\\panupongdur","ownerId":"62e9d8a7093a78faed080d76","createdDate":"2024-10-01T15:58:12.928Z","modifiedDate":"2024-10-03T14:17:52.983Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
 
 OBJECTS ON SHEETS
 {"name":"fsvuRN","type":"table","col":0,"row":0,"colspan":6,"rowspan":6,"bounds":{"y":0,"x":0,"width":25,"height":50}}
 {"name":"hujYUVh","type":"barchart","col":6,"row":0,"colspan":18,"rowspan":6,"bounds":{"y":0,"x":25,"width":75,"height":50}}
-{"name":"ryuWqS","type":"piechart","col":0,"row":6,"colspan":6,"rowspan":6,"bounds":{"y":50,"x":0,"width":25,"height":50}}
 
 DIMENSIONS
 
@@ -24,6 +23,6 @@ FIELDS
 {"qName":"Date","qCardinal":1006,"qTags":["$numeric","$integer","$timestamp","$date","$key"],"qSrcTables":["CalendarMaster","Sales"]}
 {"qName":"Month","qCardinal":12,"qTags":["$numeric","$integer"],"qSrcTables":["CalendarMaster"]}
 {"qName":"Year","qCardinal":3,"qTags":["$numeric","$integer"],"qSrcTables":["CalendarMaster"]}
-{"qName":"customer_name","qCardinal":3,"qTags":["$ascii","$text"],"qSrcTables":["Sales"]}
-{"qName":"item","qCardinal":3,"qTags":["$ascii","$text"],"qSrcTables":["Sales"]}
-{"qName":"sales","qCardinal":3,"qTags":["$numeric","$integer"],"qSrcTables":["Sales"]}
+{"qName":"customer_name","qCardinal":2,"qTags":["$ascii","$text"],"qSrcTables":["Sales"]}
+{"qName":"item","qCardinal":2,"qTags":["$ascii","$text"],"qSrcTables":["Sales"]}
+{"qName":"sales","qCardinal":2,"qTags":["$numeric","$integer"],"qSrcTables":["Sales"]}
