@@ -1,16 +1,19 @@
 
- SHEETS
+SHEETS
 {"qInfo":{"qId":"bcdrDD","qType":"sheet"},"qMeta":{"title":"test_sheet1","description":"","_resourcetype":"app.object","_objecttype":"sheet","id":"bcdrDD","approved":false,"published":false,"owner":"7eleven\\panupongdur","ownerId":"62e9d8a7093a78faed080d76","createdDate":"2024-10-01T15:58:12.928Z","modifiedDate":"2024-10-03T12:38:21.001Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
 
- OBJECTS ON SHHETS
+OBJECTS ON SHEETS
+{"name":"fsvuRN","type":"table","col":0,"row":0,"colspan":6,"rowspan":6,"bounds":{"y":0,"x":0,"width":25,"height":50}}
+{"name":"hujYUVh","type":"barchart","col":6,"row":0,"colspan":18,"rowspan":6,"bounds":{"y":0,"x":25,"width":75,"height":50}}
+{"name":"ryuWqS","type":"piechart","col":0,"row":6,"colspan":6,"rowspan":6,"bounds":{"y":50,"x":0,"width":25,"height":50}}
 
- DIMENSIONS
+DIMENSIONS
 
- MEASURES
+MEASURES
 
 VARIABLES
 
- FIELDS
+FIELDS
 {"qIsHidden":true,"qIsSystem":true,"qName":"$Field","qCardinal":7,"qTags":["$key","$hidden","$system","$ascii","$text"],"qSrcTables":[]}
 {"qIsHidden":true,"qIsSystem":true,"qName":"$Table","qCardinal":2,"qTags":["$key","$hidden","$system","$ascii","$text"],"qSrcTables":[]}
 {"qIsHidden":true,"qIsSystem":true,"qName":"$Rows","qCardinal":2,"qTags":["$numeric","$integer","$hidden","$system"],"qSrcTables":[]}
