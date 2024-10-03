@@ -34,7 +34,7 @@ Load * Inline [
 Date		,customer_name	,item	,sales
 01-01-24	,a            	,milk	,20
 01-01-24	,b				,water	,10
-01-02-24	,c				,beer	,50
+
 ];
 
 Exit Script;
