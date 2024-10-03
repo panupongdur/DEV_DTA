@@ -1,0 +1,40 @@
+///$tab Main
+SET ThousandSep=',';
+SET DecimalSep='.';
+SET MoneyThousandSep=',';
+SET MoneyDecimalSep='.';
+SET MoneyFormat='THB#,##0.00;-THB#,##0.00';
+SET TimeFormat='h นาฬิกา mm นาที ss วินาที';
+SET DateFormat='D/M/YYYY';
+SET TimestampFormat='D/M/YYYY h นาฬิกา mm นาที ss วินาที[.fff]';
+SET FirstWeekDay=6;
+SET BrokenWeeks=1;
+SET ReferenceDay=0;
+SET FirstMonthOfYear=1;
+SET CollationLocale='th-TH';
+SET CreateSearchIndexOnReload=1;
+SET MonthNames='ม.ค.;ก.พ.;มี.ค.;เม.ย.;พ.ค.;มิ.ย.;ก.ค.;ส.ค.;ก.ย.;ต.ค.;พ.ย.;ธ.ค.';
+SET LongMonthNames='มกราคม;กุมภาพันธ์;มีนาคม;เมษายน;พฤษภาคม;มิถุนายน;กรกฎาคม;สิงหาคม;กันยายน;ตุลาคม;พฤศจิกายน;ธันวาคม';
+SET DayNames='จ.;อ.;พ.;พฤ.;ศ.;ส.;อา.';
+SET LongDayNames='วันจันทร์;วันอังคาร;วันพุธ;วันพฤหัสบดี;วันศุกร์;วันเสาร์;วันอาทิตย์';
+SET NumericalAbbreviation='3:k;6:M;9:G;12:T;15:P;18:E;21:Z;24:Y;-3:m;-6:μ;-9:n;-12:p;-15:f;-18:a;-21:z;-24:y';
+
+///$tab Section
+CalendarMaster:
+LOAD
+     %DateID
+    ,Date
+    ,Month
+    ,Year
+FROM [lib://DEV_connection:SourceFile/99-Final/CalendarMaster.qvd](qvd)
+;
+
+Sales:
+Load * Inline [
+Date		,customer_name	,item	,sales
+01-01-24	,a            	,milk	,20
+01-01-24	,b				,water	,10
+01-02-24	,c				,beer	,50
+];
+
+Exit Script;
